@@ -10,3 +10,13 @@
 - 应用运行在localhost:5000端口
 
 ---
+
+**时间**: 2024-12-19
+**用户问题**: 添加vercel.json把app在vercel上部署。
+**处理结果**: 
+- 创建了vercel.json配置文件，配置了Vercel部署设置
+- 修改了app.py文件，添加了Vercel部署的注释
+- 配置使用@vercel/python构建器
+- 设置路由将所有请求转发到app.py
+
+---
