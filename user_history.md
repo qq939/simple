@@ -20,3 +20,12 @@
 - 设置路由将所有请求转发到app.py
 
 ---
+
+**时间**: 2024-12-19
+**用户问题**: 我把app.py改成了server.py，通过入口函数来引入vercel
+**处理结果**: 
+- 更新了vercel.json配置文件，将入口文件从app.py改为server.py
+- 修改了builds和routes配置，确保Vercel正确识别新的入口文件
+- 保持了原有的Flask应用功能和部署配置
+
+---
